@@ -29,7 +29,9 @@ function draw()
     fill(col.r,col.g,col.b,200);
     ellipse (spot.x, spot.y, 25, 25);
     
+    if(mouseIsPressed)
+    {
     fill(0);
     ellipse(mouseX,mouseY,100,100);
-  
+    }
 }
